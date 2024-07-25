@@ -1,0 +1,18 @@
+#!/usr/bin/env zsh
+
+function extract {
+    local svg=$1
+    cp "./svg/$svg" "./images/"
+}
+
+function copypasta {
+    local svg=$1
+    local code=$2
+    cp "./svg/$svg" "./flags/$code.svg"
+}
+
+exec <"./flag-data.csv"
+read header
+while IFS="," read isoalpha country emoji svg; do
+    copypasta $svg $isoalpha
+done

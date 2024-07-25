@@ -262,3 +262,9 @@ Country flags emojis & twemoji SVGs.
 | YE                | Yemen                                | 🇾🇪    | ![](./images/1f1fe-1f1ea.svg) |
 | ZM                | Zambia                               | 🇿🇲    | ![](./images/1f1ff-1f1f2.svg) |
 | ZW                | Zimbabwe                             | 🇿🇼    | ![](./images/1f1ff-1f1fc.svg) |
+
+## Source
+
+- [github/gemoji](https://github.com/github/gemoji)
+- [x/twemoji](https://github.com/twitter/twemoji)
+- [datasets/country-codes](https://github.com/datasets/country-codes)
